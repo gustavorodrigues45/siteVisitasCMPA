@@ -1,0 +1,1246 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buscarDocumentoBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buscarDocumentoBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="buscarDocumentoBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 233</value>
+  </data>
+  <data name="buscarDocumentoBtn.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>67, 28</value>
+  </data>
+  <data name="buscarDocumentoBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 35</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buscarDocumentoBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buscarDocumentoBtn.Text" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <metadata name="toolTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>125, 17</value>
+  </metadata>
+  <data name="buscarDocumentoBtn.ToolTip" xml:space="preserve">
+    <value>Buscar documento correspondente no Sistema</value>
+  </data>
+  <data name="&gt;&gt;buscarDocumentoBtn.Name" xml:space="preserve">
+    <value>buscarDocumentoBtn</value>
+  </data>
+  <data name="&gt;&gt;buscarDocumentoBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buscarDocumentoBtn.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;buscarDocumentoBtn.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="documentoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="documentoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="documentoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 11</value>
+  </data>
+  <data name="documentoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 25</value>
+  </data>
+  <data name="documentoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="documentoLabel.Text" xml:space="preserve">
+    <value>Documento</value>
+  </data>
+  <data name="documentoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="documentoLabel.ToolTip" xml:space="preserve">
+    <value>Documento do visitante não é obrigatório</value>
+  </data>
+  <data name="&gt;&gt;documentoLabel.Name" xml:space="preserve">
+    <value>documentoLabel</value>
+  </data>
+  <data name="&gt;&gt;documentoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;documentoLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;documentoLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tipoDocumentoComboBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tipoDocumentoComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="tipoDocumentoComboBox.Items" xml:space="preserve">
+    <value>CNH</value>
+  </data>
+  <data name="tipoDocumentoComboBox.Items1" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="tipoDocumentoComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 135</value>
+  </data>
+  <data name="tipoDocumentoComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 31</value>
+  </data>
+  <data name="tipoDocumentoComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tipoDocumentoComboBox.ToolTip" xml:space="preserve">
+    <value>Tipo do documento</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoComboBox.Name" xml:space="preserve">
+    <value>tipoDocumentoComboBox</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoComboBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoComboBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="documentoInvalidoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="documentoInvalidoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="documentoInvalidoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 215</value>
+  </data>
+  <data name="documentoInvalidoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 15</value>
+  </data>
+  <data name="documentoInvalidoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="documentoInvalidoLabel.Text" xml:space="preserve">
+    <value>Documento inválido</value>
+  </data>
+  <data name="documentoInvalidoLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;documentoInvalidoLabel.Name" xml:space="preserve">
+    <value>documentoInvalidoLabel</value>
+  </data>
+  <data name="&gt;&gt;documentoInvalidoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;documentoInvalidoLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;documentoInvalidoLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="documentoTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="documentoTextBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="documentoTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="documentoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 182</value>
+  </data>
+  <data name="documentoTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="documentoTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="documentoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 31</value>
+  </data>
+  <data name="documentoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="documentoTextBox.ToolTip" xml:space="preserve">
+    <value>Documento do visitante</value>
+  </data>
+  <data name="&gt;&gt;documentoTextBox.Name" xml:space="preserve">
+    <value>documentoTextBox</value>
+  </data>
+  <data name="&gt;&gt;documentoTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;documentoTextBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;documentoTextBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="documentoLabelBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="documentoLabelBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 181</value>
+  </data>
+  <data name="documentoLabelBg.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="documentoLabelBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="documentoLabelBg.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="documentoLabelBg.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="documentoLabelBg.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;documentoLabelBg.Name" xml:space="preserve">
+    <value>documentoLabelBg</value>
+  </data>
+  <data name="&gt;&gt;documentoLabelBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;documentoLabelBg.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;documentoLabelBg.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="timerForm.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="nomeLabelBg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="nomeLabelBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nomeLabelBg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nomeLabelBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 42</value>
+  </data>
+  <data name="nomeLabelBg.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="nomeLabelBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="nomeLabelBg.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="nomeLabelBg.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;nomeLabelBg.Name" xml:space="preserve">
+    <value>nomeLabelBg</value>
+  </data>
+  <data name="&gt;&gt;nomeLabelBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nomeLabelBg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;nomeLabelBg.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="nomeTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="nomeTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="nomeTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="nomeTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="nomeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="nomeTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;nomeTextBox.Name" xml:space="preserve">
+    <value>nomeTextBox</value>
+  </data>
+  <data name="&gt;&gt;nomeTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nomeTextBox.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;nomeTextBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="nomeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nomeLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="nomeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nomeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 11</value>
+  </data>
+  <data name="nomeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 25</value>
+  </data>
+  <data name="nomeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="nomeLabel.Text" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="nomeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="nomeLabel.ToolTip" xml:space="preserve">
+    <value>Nome do visitante</value>
+  </data>
+  <data name="&gt;&gt;nomeLabel.Name" xml:space="preserve">
+    <value>nomeLabel</value>
+  </data>
+  <data name="&gt;&gt;nomeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nomeLabel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;nomeLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cadastrarVisitaBtn.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cadastrarVisitaBtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="cadastrarVisitaBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cadastrarVisitaBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 677</value>
+  </data>
+  <data name="cadastrarVisitaBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 35</value>
+  </data>
+  <data name="cadastrarVisitaBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="cadastrarVisitaBtn.Text" xml:space="preserve">
+    <value>Cadastrar Visita</value>
+  </data>
+  <data name="cadastrarVisitaBtn.ToolTip" xml:space="preserve">
+    <value>Cadastrar Visita no Sistema</value>
+  </data>
+  <data name="&gt;&gt;cadastrarVisitaBtn.Name" xml:space="preserve">
+    <value>cadastrarVisitaBtn</value>
+  </data>
+  <data name="&gt;&gt;cadastrarVisitaBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cadastrarVisitaBtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;cadastrarVisitaBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nomeInvalidoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="nomeInvalidoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="nomeInvalidoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="nomeInvalidoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 76</value>
+  </data>
+  <data name="nomeInvalidoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 15</value>
+  </data>
+  <data name="nomeInvalidoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="nomeInvalidoLabel.Text" xml:space="preserve">
+    <value>Nome inválido</value>
+  </data>
+  <data name="nomeInvalidoLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;nomeInvalidoLabel.Name" xml:space="preserve">
+    <value>nomeInvalidoLabel</value>
+  </data>
+  <data name="&gt;&gt;nomeInvalidoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nomeInvalidoLabel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;nomeInvalidoLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 11</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cpfLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cpfLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="cpfLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="cpfLabel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>65, 31</value>
+  </data>
+  <data name="cpfLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 31</value>
+  </data>
+  <data name="cpfLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cpfLabel.Text" xml:space="preserve">
+    <value> CPF</value>
+  </data>
+  <data name="cpfLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="cpfLabel.ToolTip" xml:space="preserve">
+    <value>CPF do visitante</value>
+  </data>
+  <data name="&gt;&gt;cpfLabel.Name" xml:space="preserve">
+    <value>cpfLabel</value>
+  </data>
+  <data name="&gt;&gt;cpfLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cpfLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cpfLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cpfTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cpfTextBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="cpfTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 43</value>
+  </data>
+  <data name="cpfTextBox.MaxLength" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="cpfTextBox.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="cpfTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 31</value>
+  </data>
+  <data name="cpfTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cpfTextBox.ToolTip" xml:space="preserve">
+    <value>Número de CPF do visitante</value>
+  </data>
+  <data name="&gt;&gt;cpfTextBox.Name" xml:space="preserve">
+    <value>cpfTextBox</value>
+  </data>
+  <data name="&gt;&gt;cpfTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cpfTextBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cpfTextBox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="outroDocumentoCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="outroDocumentoCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="outroDocumentoCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="outroDocumentoCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 109</value>
+  </data>
+  <data name="outroDocumentoCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 23</value>
+  </data>
+  <data name="outroDocumentoCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="outroDocumentoCheckBox.Text" xml:space="preserve">
+    <value>Outro tipo de documento</value>
+  </data>
+  <data name="outroDocumentoCheckBox.ToolTip" xml:space="preserve">
+    <value>Visitante possui outro tipo de documento. Ex. RG</value>
+  </data>
+  <data name="&gt;&gt;outroDocumentoCheckBox.Name" xml:space="preserve">
+    <value>outroDocumentoCheckBox</value>
+  </data>
+  <data name="&gt;&gt;outroDocumentoCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;outroDocumentoCheckBox.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;outroDocumentoCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tipoDocumentoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tipoDocumentoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="tipoDocumentoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tipoDocumentoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 135</value>
+  </data>
+  <data name="tipoDocumentoLabel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>65, 31</value>
+  </data>
+  <data name="tipoDocumentoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 31</value>
+  </data>
+  <data name="tipoDocumentoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="tipoDocumentoLabel.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="tipoDocumentoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="tipoDocumentoLabel.ToolTip" xml:space="preserve">
+    <value>Tipo do documento do visitante</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoLabel.Name" xml:space="preserve">
+    <value>tipoDocumentoLabel</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;tipoDocumentoLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="numeroDocumentoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="numeroDocumentoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="numeroDocumentoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="numeroDocumentoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 182</value>
+  </data>
+  <data name="numeroDocumentoLabel.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>65, 31</value>
+  </data>
+  <data name="numeroDocumentoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 31</value>
+  </data>
+  <data name="numeroDocumentoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="numeroDocumentoLabel.Text" xml:space="preserve">
+    <value>Núm.</value>
+  </data>
+  <data name="numeroDocumentoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="numeroDocumentoLabel.ToolTip" xml:space="preserve">
+    <value>Documento do visitante</value>
+  </data>
+  <data name="&gt;&gt;numeroDocumentoLabel.Name" xml:space="preserve">
+    <value>numeroDocumentoLabel</value>
+  </data>
+  <data name="&gt;&gt;numeroDocumentoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;numeroDocumentoLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;numeroDocumentoLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="destinoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="destinoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="destinoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="destinoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 117</value>
+  </data>
+  <data name="destinoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 25</value>
+  </data>
+  <data name="destinoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="destinoLabel.Text" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="destinoLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="destinoLabel.ToolTip" xml:space="preserve">
+    <value>Destino da visita</value>
+  </data>
+  <data name="&gt;&gt;destinoLabel.Name" xml:space="preserve">
+    <value>destinoLabel</value>
+  </data>
+  <data name="&gt;&gt;destinoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destinoLabel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;destinoLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="dataVisitaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataVisitaLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="dataVisitaLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataVisitaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 229</value>
+  </data>
+  <data name="dataVisitaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 25</value>
+  </data>
+  <data name="dataVisitaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="dataVisitaLabel.Text" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="dataVisitaLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="dataVisitaLabel.ToolTip" xml:space="preserve">
+    <value>Data e horário da visita</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaLabel.Name" xml:space="preserve">
+    <value>dataVisitaLabel</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaLabel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="cpfInvalidoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cpfInvalidoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="cpfInvalidoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cpfInvalidoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>70, 76</value>
+  </data>
+  <data name="cpfInvalidoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 15</value>
+  </data>
+  <data name="cpfInvalidoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="cpfInvalidoLabel.Text" xml:space="preserve">
+    <value>CPF inválido</value>
+  </data>
+  <data name="cpfInvalidoLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabel.Name" xml:space="preserve">
+    <value>cpfInvalidoLabel</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabel.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cpfInvalidoLabelBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cpfInvalidoLabelBg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cpfInvalidoLabelBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 42</value>
+  </data>
+  <data name="cpfInvalidoLabelBg.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="cpfInvalidoLabelBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="cpfInvalidoLabelBg.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="cpfInvalidoLabelBg.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabelBg.Name" xml:space="preserve">
+    <value>cpfInvalidoLabelBg</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabelBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabelBg.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;cpfInvalidoLabelBg.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 57</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 276</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="destinoInvalidoLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="destinoInvalidoLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="destinoInvalidoLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="destinoInvalidoLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 182</value>
+  </data>
+  <data name="destinoInvalidoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 15</value>
+  </data>
+  <data name="destinoInvalidoLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="destinoInvalidoLabel.Text" xml:space="preserve">
+    <value>Destino inválido</value>
+  </data>
+  <data name="destinoInvalidoLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;destinoInvalidoLabel.Name" xml:space="preserve">
+    <value>destinoInvalidoLabel</value>
+  </data>
+  <data name="&gt;&gt;destinoInvalidoLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destinoInvalidoLabel.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;destinoInvalidoLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dataVisitaDateTimePick.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="dataVisitaDateTimePick.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyy - HH:mm'h'</value>
+  </data>
+  <data name="dataVisitaDateTimePick.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataVisitaDateTimePick.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="dataVisitaDateTimePick.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 261</value>
+  </data>
+  <data name="dataVisitaDateTimePick.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 28</value>
+  </data>
+  <data name="dataVisitaDateTimePick.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="dataVisitaDateTimePick.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaDateTimePick.Name" xml:space="preserve">
+    <value>dataVisitaDateTimePick</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaDateTimePick.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaDateTimePick.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;dataVisitaDateTimePick.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 14pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 117</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 25</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="dataCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="dataCheckBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="dataCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="dataCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="dataCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 294</value>
+  </data>
+  <data name="dataCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 23</value>
+  </data>
+  <data name="dataCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="dataCheckBox.Text" xml:space="preserve">
+    <value>Alterar data e hora</value>
+  </data>
+  <data name="dataCheckBox.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;dataCheckBox.Name" xml:space="preserve">
+    <value>dataCheckBox</value>
+  </data>
+  <data name="&gt;&gt;dataCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataCheckBox.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;dataCheckBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="destinoComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="destinoComboBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 13pt</value>
+  </data>
+  <data name="destinoComboBox.IntegralHeight" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="destinoComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 149</value>
+  </data>
+  <data name="destinoComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 31</value>
+  </data>
+  <data name="destinoComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;destinoComboBox.Name" xml:space="preserve">
+    <value>destinoComboBox</value>
+  </data>
+  <data name="&gt;&gt;destinoComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destinoComboBox.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;destinoComboBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="destinoLabelBg.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="destinoLabelBg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="destinoLabelBg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="destinoLabelBg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 148</value>
+  </data>
+  <data name="destinoLabelBg.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="destinoLabelBg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>402, 33</value>
+  </data>
+  <data name="destinoLabelBg.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="destinoLabelBg.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;destinoLabelBg.Name" xml:space="preserve">
+    <value>destinoLabelBg</value>
+  </data>
+  <data name="&gt;&gt;destinoLabelBg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;destinoLabelBg.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;destinoLabelBg.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 339</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>415, 327</value>
+  </data>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="portariaLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="portariaLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="portariaLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15.75pt</value>
+  </data>
+  <data name="portariaLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="portariaLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 9</value>
+  </data>
+  <data name="portariaLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 30</value>
+  </data>
+  <data name="portariaLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="portariaLabel.Text" xml:space="preserve">
+    <value>VISITANTES PORTARIA </value>
+  </data>
+  <data name="&gt;&gt;portariaLabel.Name" xml:space="preserve">
+    <value>portariaLabel</value>
+  </data>
+  <data name="&gt;&gt;portariaLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portariaLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;portariaLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>439, 726</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABMLAAATCwAAAAAAAAAA
+        AADEgkIAxIJCAMSCQgHEgkICxIJCAMSCQlzEgkLMxIJC88SCQv/EgkL/xIJC9cSCQtHEgkJkxIJCAsSC
+        QgHEgkIBxIJCAGi8XAJnvFwAZ7xcK2e8XNVnvFz8Z7xcm2e8XAJnvFwAZ7xcAQAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAMSCQgDEgkIBxIJCAMSCQgTEgkKhxIJC/8SCQv7EgkL/xIJC/8SCQv/EgkL/xIJC/cSC
+        Qv/EgkKuxIJCCcSCQgCzjUcBaLxcAme8XABnvFywZ7xc/2e8XPlnvFz/Z7xcVWe8XABnvFwDAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAxIJCAMSCQgLEgkIAxIJClMSCQv/EgkL6xIJC/cSCQv/EgkL/xIJC/8SC
+        Qv/EgkL9xIJC+sSCQv/EgkKnxIJCALGORwKGqVMBZ7xcAGe8XMpnvFz/Z7xc+Ge8XP9nvFxzZ7xcAGe8
+        XAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEgkICxIJCAMSCQi3EgkL8xIJC/cSCQv7EgkL/xIJC/8SC
+        Qv/EgkL/xIJC/8SCQv/EgkL/xIJC+8SCQv/EgkJFx4BBALCORwRnvFwAZ7xcyWe8XP9nvFz5Z7xc/2e8
+        XG9nvFwAZ7xcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMSCQgTEgkIAxIJCdsSCQv/EgkL7xIJC/8SC
+        Qv/EgkL/xIJC/8SCQv/EgkL+xIJC/MSCQvvEgkL3xIJC/8SCQpLGgUEAtYtGBGa8XABnvFzKZ7xc/2e8
+        XPlnvFz/Z7xccGe8XABnvFwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxIJCA8SCQgDEgkKwxIJC/8SC
+        QvzEgkL/xIJC/8SCQv/EgkL/xIJC/cSCQv3EgkL/xIJC/8SCQv3EgkL/xIJCz+lrOABhwF4BXMNfAGe8
+        XMpnvFz/Z7xc+We8XP9nvFxwZ7xcAGe8XAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEgkIAxIJCCcSC
+        QuHEgkL/xIJC/cSCQv/EgkL/xIJC/8SCQv7EgkL/xIJC+cODQrHBhEOAwIRDdMGEQ3bAhENtoZhMDCvh
+        bQPHgEEAZ7xcy2e8XP9nvFz5Z7xc/2e8XHJnvFwAZ7xcCGe8XARnvFwEZ7xcBGe8XARnvFwDZ7xcAcSC
+        QgDEgkIwxIJC/8SCQv/EgkL/xIJC/8SCQv/EgkL+xIJC/8SCQuXDg0I51Xg9ANF6PgGhmEwAAAAAAAAA
+        AABnvFwAZ7xcAWe8XABnvFzHZ7xc/2e8XPhnvFz/Z7xcb2e8XABnvFwEAAAAAAAAAAAAAAAAZ7xcAGe8
+        XABnvFwBxIJCAMSCQmbEgkL/xIJC/MSCQv/EgkL/xIJC/8SCQv7EgkL/w4NCRquSSQB1tFgjarpbdmq6
+        W4VquluDarpbg2e8XIBnvFyAZ7xcfWe8XORnvFz/Z7xc/Ge8XP9nvFy3Z7xcd2e8XIJnvFx/Z7xcf2e8
+        XH9nvFyBZ7xcVWe8XAXEgkIAxIJCn8SCQv/EgkL7xIJC/8SCQv/EgkL8xIJC/8OCQsaToVAAdbNYFme8
+        XN5nvFz/Z7xc/We8XP9nvFz/Z7xc/2e8XP9nvFz/Z7xc/2e8XP9nvFz/Z7xc/2e8XP9nvFz/Z7xc/2e8
+        XP9nvFz/Z7xc/2e8XP1nvFz/Z7xcm8SCQgPEgkLRxIJC/8SCQv3EgkL/xIJC/8SCQvvEgkL/woNDoZKh
+        UABrultTZ7xc/2e8XPVnvFz5Z7xc+We8XPlnvFz5Z7xc+We8XPhnvFz+Z7xc/2e8XP9nvFz/Z7xc+2e8
+        XPhnvFz5Z7xc+We8XPlnvFz5Z7xc+Ge8XPxnvFzzxIJCKcSCQvbEgkL/xIJC/sSCQv/EgkL/xIJC/MSC
+        Qv/Dg0Kxl55PAG24WjZnvFz+Z7xc/2e8XP5nvFz/Z7xc/2e8XP9nvFz/Z7xc/2e8XP9nvFz/Z7xc/2e8
+        XP9nvFz/Z7xc/2e8XP9nvFz/Z7xc/2e8XP9nvFz9Z7xc/2e8XNDEgkJgxIJC/8SCQv3EgkL/xIJC/8SC
+        Qv/EgkL+xIJC/8SCQu6/hUMdk6BQAGu5W2dou1zTaLtc2Gi7XNhou1zYaLtc2Ge8XNdnvFzVZ7xc9me8
+        XP9nvFz+Z7xc/2e8XOhnvFzTZ7xc12e8XNZnvFzWZ7xc1me8XNhnvFy1Z7xcLMSCQp7EgkL/xIJC/MSC
+        Qv/EgkL/xIJC/8SCQv/EgkL8xIJC/8SCQqzEgkICxIJCAMSCQgEAAAAAZ7xcAGe8XABnvFwAZ7xcA2e8
+        XABnvFzKZ7xc/2e8XPlnvFz/Z7xccWe8XABnvFwHZ7xcA2e8XANnvFwDZ7xcAme8XABnvFwBxIJC2MSC
+        Qv/EgkL+xIJC/8SCQv/EgkL/xIJC/8SCQv/EgkL9xIJC/8SCQsnAhENSwoNDKceAQSjGgUEoxoFBKMaB
+        Qii+hkQHfq5WAGe8XMpnvFz/Z7xc+We8XP9nvFxwZ7xcAGe8XAQAAAAAZ7xcAGe8XABnvFwAZ7xcAme8
+        XALEgkL1xIJC/sSCQv/EgkL/xIJC/8SCQv/EgkL/xIJC/8SCQv/EgkL9xIJC/8SCQv/EgkL+xIJC/cSC
+        Qv3EgkL+xIJC+cGEQymolEoAaLtczGe8XP9nvFz5Z7xc/2e8XHBnvFwAZ7xcBWe8XAFnvFwBZ7xcAWe8
+        XAFnvFwAZ7xcAMSCQrrEgkL/xIJC+sSCQvzEgkL+xIJC/sSCQv/EgkL/xIJC/8SCQv/EgkL8xIJC/MSC
+        Qv/EgkL/xIJC/cSCQv3EgkL+woNCLKaVSgBou1zMZ7xc/2e8XPlnvFz/Z7xccGe8XABnvFwEAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAxIJCHMSCQsTEgkL/xIJC/cSCQv/EgkL/xIJC/sSCQv3EgkL9xIJC/cSC
+        Qv3EgkL+xIJC/sSCQv/EgkL9xIJC/8SCQtrBhEMVlp9PAGi8XMtnvFz/Z7xc+We8XP9nvFxwZ7xcAGe8
+        XAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEgkIAxIJCBsSCQl3EgkK7xIJC68SCQv3EgkL/xIJC/8SC
+        Qv/EgkL/xIJC/8SCQv/EgkL+xIJC8MSCQsfEgkJ0woNDEeBxOgBOzGMAZ7xcyWe8XP9nvFz5Z7xc/2e8
+        XHBnvFwAZ7xcBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMSCQgLEgkICxIJCAMWCQQDEgkIOxIJCK7+E
+        Rzi7hUxEvYRKRb2ESUS7hUxFvoRJOsSCQi/EgkIUwINGAMSCQgCrkkkBiadSAmm7WwBnvFzGZ7xc/2e8
+        XPZnvFz/Z7xcame8XABnvFwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxIJCAMSCQgHEgkIExIJCAsSC
+        QgDEgkIAxIJCAAAAAAAAAAAAAAAAAAAAAADEgkIAxIJCAMSCQgDEgkIBxIJCBMKDQgFiv10DZ7xcAGe8
+        XGJnvFz/Z7xc/2e8XN9nvFwbZ7xcAGe8XAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADEgkIAuIZPAAD/
+        /wD/KQAAU6bBBCS19QAvsukfKbTwfii08a8otPGyKLTwjS2y6zAft/sATajHA6KNaAGWkXUAiJt1AGi7
+        XABnvFwBZ7xcAGe8XDJnvFxXZ7xcF2e8XABnvFwBZ7xcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAltfQAJbX0ACW19AIltfQAJbX0WSW19PQltfT/JbX0/iW19P8ltfT/JbX0/yW19HwltfQAJbX0AiW1
+        9AAote0AZ7xcAGe8XABnvFwCZ7xcAGe8XABnvFwBZ7xcAWe8XABnvFwAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACW19AAltfQDJbX0ACW19EYltfT/JbX0/yW19PsltfT7JbX0/CW19PsltfT7JbX0/yW1
+        9G0ltfQAJbX0AyW19ABnvFwAZ7xcAGe8XABnvFwCZ7xcBGe8XAFnvFwAZ7xcAGe8XAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAJbX0ACW19AAltfQAJbX0ySW19P8ltfT7JbX0/yW19P8ltfT/JbX0/yW1
+        9P0ltfT/JbX06SW19BUltfQAJbX0AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAltfQCJbX0ACW19ColtfT7JbX0/yW19P8ltfT/JbX0/yW1
+        9P8ltfT/JbX0/yW19PwltfT/JbX0UiW19AAltfQDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACW19AMltfQAJbX0QSW19P8ltfT9JbX0/yW1
+        9P8ltfT/JbX0/yW19P8ltfT/JbX0+yW19P8ltfRxJbX0ACW19AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJbX0AiW19AAltfQzJbX0/yW1
+        9P4ltfT/JbX0/yW19P8ltfT/JbX0/yW19P8ltfT8JbX0/yW19F0ltfQAJbX0BAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAltfQBJbX0ACW1
+        9AcltfTdJbX0/yW19P0ltfT/JbX0/yW19P8ltfT/JbX0/iW19P8ltfT4JbX0JSW19AAltfQCAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACW1
+        9AAltfQDJbX0ACW19GwltfT/JbX0+yW19P0ltfT/JbX0/yW19P0ltfT6JbX0/yW19JYltfQAJbX0AiW1
+        9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAJbX0ACW19AAltfQBJbX0ACW19I0ltfT/JbX0/iW19P8ltfT/JbX0/SW19P8ltfSxJbX0CCW1
+        9AAltfQBJbX0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAltfQAJbX0ACW19AAltfQCJbX0ACW19FMltfTIJbX08SW19PQltfTUJbX0bCW1
+        9AQltfQBJbX0ASW19AAltfQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAASACgvyABIL8gASC/QACgv0AAoL9AAKC/gAAAgIATILqAIAAAgEAAAABA
+        AAAAQAAAACAAAAAWIIIAACCkAAAggQAAIL8AACC/AABgvzABIL+L9CC/hAkRP6gEJL+QAiF/kAF//6AB
+        f/+gAX//oAF//6ABf/+QAn//iAJ//+QBf/8=
+</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 150</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>455, 655</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;timerForm.Name" xml:space="preserve">
+    <value>timerForm</value>
+  </data>
+  <data name="&gt;&gt;timerForm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Name" xml:space="preserve">
+    <value>toolTip</value>
+  </data>
+  <data name="&gt;&gt;toolTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>CadastroVisitanteForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
