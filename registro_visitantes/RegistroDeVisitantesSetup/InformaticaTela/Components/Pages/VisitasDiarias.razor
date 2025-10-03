@@ -1,0 +1,44 @@
+@page "/"
+@page "/visitas-diarias"
+@inject HttpClient Http
+
+<h3>Visitas Diárias - Assessoria de Informática</h3>
+
+@if (visitas is null)
+{
+    <p>Carregando visitas...</p>
+}
+else if (!visitas.Any())
+{
+    <p>Nenhuma visita registrada hoje.</p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Horário de Chegada</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var v in visitas)
+            {
+                <tr>
+                    <td>@v.Nome</td>
+                    <td>@v.HoraChegada.ToString("HH:mm")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<InformaticaTela.Models.Visit> visitas;
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Busca os dados da API mock
+        visitas = await Http.GetFromJsonAsync<List<InformaticaTela.Models.Visit>>("api/visitas");
+    }
+}
