@@ -27,7 +27,8 @@ namespace PortariaForm.DAO
             cmd.Parameters.Add("@documento", OdbcType.Char).Value = !string.IsNullOrEmpty(pesssoa.Documento) ? pesssoa.Documento : DBNull.Value;
             cmd.Parameters.Add("@nome", OdbcType.VarChar).Value = pesssoa.Nome;
             cmd.Parameters.Add("@created_at", OdbcType.DateTime).Value = pesssoa.Criacao;
-            
+
+
             try
             {
                 conexao.Open();
@@ -64,6 +65,46 @@ namespace PortariaForm.DAO
             {
                 throw new Exception("Não foi possível atualizar nome de pessoa no Banco de Dados.\n" + ex.Message);
             }
+        }
+
+        ///<summary>
+        ///Método para buscar uma pessoa pelo ID
+        public static Pessoa BuscarPorId(int id)
+        {
+            string query = "SELECT id, documento, tipo_documento, nome, created_at FROM [pessoas] WHERE id = ?";
+            Pessoa pessoa = new()
+            {
+                Id = -1
+            };
+
+            using (OdbcConnection conexao = ConnectionFactory.CriarConexao())
+            {
+                using (OdbcCommand cmd = new(query, conexao))
+                {
+                    cmd.Parameters.Add("@id", OdbcType.Int).Value = id;
+                    try
+                    {
+                        conexao.Open();
+
+                        using (OdbcDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                pessoa.Id = reader.GetInt32(0);
+                                pessoa.Documento = !reader.IsDBNull(1) ? reader.GetString(1) : null;
+                                pessoa.TipoDocumento = !reader.IsDBNull(2) ? reader.GetString(2) : null;
+                                pessoa.Nome = reader.GetString(3);
+                                pessoa.Criacao = reader.GetDateTime(4);
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        throw new Exception("Não foi possível buscar pessoa no Banco de Dados.\n" + ex.Message);
+                    }
+                }
+            }
+            return pessoa;
         }
 
         /// <summary>
@@ -110,6 +151,45 @@ namespace PortariaForm.DAO
 
             return pessoa;
         }
+
+        public static List<Visita> BuscarTodasAsVisitasDoDia()
+{
+    string query = "SELECT id, created_at, pessoa_id, destino_id, portaria_nome, recepcionista FROM [visitas] WHERE CONVERT(date, created_at) = CONVERT(date, GETDATE())";
+    List<Visita> visitas = new();
+
+    using (OdbcConnection conexao = ConnectionFactory.CriarConexao())
+    {
+        using (OdbcCommand cmd = new(query, conexao))
+        {
+            try
+            {
+                conexao.Open();
+
+                using (OdbcDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        Visita visita = new()
+                        {
+                            Id = reader.GetInt32(0),
+                            Criacao = reader.GetDateTime(1),
+                            PessoaId = reader.GetInt32(2),
+                            DestinoId = reader.GetInt32(3),
+                            PortariaNome = reader.GetString(4),
+                            Recepcionista = reader.GetString(5)
+                        };
+                        visitas.Add(visita);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Não foi possível conectar ao Banco de Dados.\n" + ex.Message);
+            }
+        }
+    }
+    return visitas;
+}
 
         /// <summary>
         /// Essa função efetua a busca de <paramref name="documento"/> na tabela <c>dbo.pessoas</c>.
