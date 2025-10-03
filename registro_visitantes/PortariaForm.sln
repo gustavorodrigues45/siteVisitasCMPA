@@ -11,8 +11,6 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ControleDeLocalSetup", "Con
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RegistroDeVisitantesSetup", "RegistroDeVisitantesSetup\RegistroDeVisitantesSetup.vdproj", "{4FCB1DFD-02AF-4DAC-937D-B829BB2C29DD}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RegistroDeVisitantesSetup", "RegistroDeVisitantesSetup", "{72817BD1-067B-FEAF-C009-B53F06183526}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformaticaTela", "RegistroDeVisitantesSetup\InformaticaTela\InformaticaTela.csproj", "{CE4F0253-8DA8-4081-8AA7-0865768CC093}"
 EndProject
 Global
@@ -101,9 +99,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{CE4F0253-8DA8-4081-8AA7-0865768CC093} = {72817BD1-067B-FEAF-C009-B53F06183526}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8CA5AB9-1080-4E23-AA69-06A2609FE282}
